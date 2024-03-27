@@ -1,0 +1,28 @@
+1- exports.add = (req, res) => {
+  const { X, Y } = req.query;
+  
+  const result = X + Y;
+
+  res.send(result.toString());
+};
+2- exports.sub = (req, res) => {
+  const { X, Y } = req.query;
+  
+  const result = X - Y;
+
+  res.send(result.toString());
+};
+3- exports.mul = (req, res) => {
+  const { X, Y } = req.query;
+  
+  const result = X * Y;
+
+  res.send(result.toString());
+};
+4- exports.div = (req, res) => {
+  const { X, Y } = req.query;
+  
+  const result = X / Y;
+
+  res.send(result.toString());
+};

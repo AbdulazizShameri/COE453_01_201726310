@@ -1,0 +1,8 @@
+api: 
+(hw-3-418118)$ gcloud api-gateway api-configs list --api=api --project=hw-3-418118
+CONFIG_ID: api
+API_ID: api
+DISPLAY_NAME: api
+SERVICE_CONFIG_ID: api-39kydlkbflqo7
+STATE: ACTIVE
+CREATE_TIME: 2024-03-27T20:11:32

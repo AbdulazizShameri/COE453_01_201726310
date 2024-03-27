@@ -1,10 +1,11 @@
 1- exports.add = (req, res) => {
   const { X, Y } = req.query;
   
-  const result = X + Y;
+  const result = parseInt(X) + parseInt(Y);
 
   res.send(result.toString());
 };
+
 2- exports.sub = (req, res) => {
   const { X, Y } = req.query;
   

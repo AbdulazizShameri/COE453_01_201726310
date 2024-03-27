@@ -1,0 +1,8 @@
+add : 
+https://us-central1-hw-3-418118.cloudfunctions.net/add?X=5&Y=3
+sub: 
+https://us-central1-hw-3-418118.cloudfunctions.net/sub?X=5&Y=3
+mul: 
+https://us-central1-hw-3-418118.cloudfunctions.net/mul?X=5&Y=3
+div: 
+https://us-central1-hw-3-418118.cloudfunctions.net/div?X=5&Y=3

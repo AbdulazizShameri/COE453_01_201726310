@@ -1,0 +1,77 @@
+swagger: '2.0'
+info:
+  title: Calculator API
+  version: 1.0.0
+paths:
+  /add:
+    get:
+      summary: Perform addition
+      operationId: addOperation
+      parameters:
+        - name: X
+          in: query
+          required: true
+          type: number
+        - name: Y
+          in: query
+          required: true
+          type: number
+      responses:
+        '200':
+          description: Successful operation
+      x-google-backend:
+        address: https://us-central1-hw-3-418118.cloudfunctions.net/add
+  /sub:
+    get:
+      summary: Perform subtraction
+      operationId: subOperation
+      parameters:
+        - name: X
+          in: query
+          required: true
+          type: number
+        - name: Y
+          in: query
+          required: true
+          type: number
+      responses:
+        '200':
+          description: Successful operation
+      x-google-backend:
+        address: https://us-central1-hw-3-418118.cloudfunctions.net/sub
+  /mul:
+    get:
+      summary: Perform multiplication
+      operationId: mulOperation
+      parameters:
+        - name: X
+          in: query
+          required: true
+          type: number
+        - name: Y
+          in: query
+          required: true
+          type: number
+      responses:
+        '200':
+          description: Successful operation
+      x-google-backend:
+        address: https://us-central1-hw-3-418118.cloudfunctions.net/mul
+  /div:
+    get:
+      summary: Perform division
+      operationId: divOperation
+      parameters:
+        - name: X
+          in: query
+          required: true
+          type: number
+        - name: Y
+          in: query
+          required: true
+          type: number
+      responses:
+        '200':
+          description: Successful operation
+      x-google-backend:
+        address: https://us-central1-hw-3-418118.cloudfunctions.net/div
